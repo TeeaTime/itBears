@@ -1,0 +1,121 @@
+body {
+    background-color: #161516;
+    color: white;
+    font-family: "Rubik";
+    margin: 0 auto;
+}
+.visually-hidden{
+    visibility: hidden;  
+    display: none; 
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    max-width: 1501px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.header__logo-wrapper{
+    display: flex;
+    height: 50px;
+}
+.header__navigation-list{
+    display: flex;
+    font-size: 18px;
+}
+.header__navigation-item:not(:last-child){
+    margin-right: 50px;
+}
+.header__logo-description{
+    font-family: 'Sansation';
+    font-size: 22px;
+    line-height: 25,3px;
+    margin: 0px;
+    margin-left: 10px;
+}
+.description{
+    max-width: 1501px;
+    margin: 0 auto;
+    margin-top: 256px;
+}
+.description__heading{
+    width: 900px;
+    font-size: 60px;
+    line-height: 78px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.description__bottom{
+    margin: 0px;
+    width: 778px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.header__toggle{
+    margin-top: 16px;
+     border: none;
+     width: 35px;
+     height: 1px;
+     box-shadow: 0 15px 0 0 #ffffff;
+     display: none;
+     cursor: pointer;
+ } 
+ .paw{
+     position: absolute;
+     left: 87%;
+     bottom: 34%;
+ }
+@media (max-width: 1240px){
+    .header{
+        max-width: 940px;
+    }
+    .description{
+        max-width: 940px;
+    }
+    .description__heading{
+        font-size: 55px;
+        line-height: 130%;
+        width: 800px;
+    }
+    .description__bottom{
+        font-size: 18px;
+        line-height: 150%;
+        width: 696px;
+    }
+}
+@media (max-width: 980px) {
+        .header{
+            max-width: 620px;
+        }
+        .description{
+            max-width: 620px;
+        }
+        .description__heading{
+            font-size: 42px;
+            line-height: 130%;
+            width: 620px;
+        }
+        .description__bottom{
+            width: 616px;
+            font-size: 16px;
+            line-height: 150%;
+        }
+        .header__navigation{
+            display: none;
+        }
+        .header__toggle{
+            display: block;
+        }
+        .paw{
+            bottom: 26%;
+        }
+        
+}
