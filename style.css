@@ -21,7 +21,7 @@ a{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    padding: 0px 20px;
+    padding: 0px 50px;
 }
 .header__logo-wrapper{
     display: flex;
@@ -46,7 +46,7 @@ a{
     height: calc(100vh - 87.5px);
     display: flex;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 50px;
 
 }
 .intro__title{
