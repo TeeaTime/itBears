@@ -65,7 +65,7 @@ a{
     margin-top: 20px;
 }
 .header__toggle{
-    margin-top: 16px;
+     margin-top: 16px;
      border: none;
      width: 35px;
      height: 1px;
@@ -87,17 +87,16 @@ a{
     }
     .intro{
         max-width: 940px;
-        padding: 0px 20px;
     }
     .intro__title{
         font-size: 55px;
         line-height: 130%;
-        width: 800px;
+        max-width: 800px;
     }
     .intro__subtitle{
         font-size: 18px;
         line-height: 150%;
-        width: 696px;
+        max-width: 696px;
     }
 }
 @media (max-width: 980px) {
@@ -112,10 +111,10 @@ a{
         .intro__title{
             font-size: 39px;
             line-height: 130%;
-            width: 620px;
+            max-width: 620px;
         }
         .intro__subtitle{
-            width: 616px;
+            max-width: 616px;
             font-size: 14px;
             line-height: 150%;
         }
