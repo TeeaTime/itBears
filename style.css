@@ -65,7 +65,7 @@ a{
     margin-top: 20px;
 }
 .header__toggle{
-     display: flex;
+     display: none;
      align-items: center;
 	 justify-content: center;
      background: none;
@@ -73,7 +73,6 @@ a{
      flex-direction: column;
      cursor: pointer;
      width: 35px;
-     display: none;
  } 
  .header__logo-close{
      margin-bottom: 10px;
@@ -101,6 +100,8 @@ a{
      background-color: white;
      width: 35px;
      height: 1px;
+     margin-bottom: 15px;
+     
  }
  .stick-bottom{
     background-color: white;
@@ -164,10 +165,6 @@ a{
         }
         .header__toggle{
             display: flex;
-            background: none;
-            border: none;
-            flex-direction: column;
-            cursor: pointer;
             margin-top: 14px;
         } 
         .intro__container-subtitle{
