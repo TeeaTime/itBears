@@ -93,7 +93,7 @@ a{
  .header__toggle-close span{
      position: absolute;
      display: block;
-     transition: all 0.8s;
+     transition: all 0.7s;
  }
  
  .stick-up{
